@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "78ceb4fa-329c-4713-88b1-2979fda47d54",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5962596"
+	},
+	"item": [
+		{
+			"name": "Reviewers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Address",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Application",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Dash Board",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/application/dashboard_api/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"application",
+						"dashboard_api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
